@@ -68,9 +68,9 @@
 // console.log ("Yeni maaşınız:",maas);
 
 
-//! ÖDEV 4: KREDİ RİSK PROGRAMI
+// //! ÖDEV 4: KREDİ RİSK PROGRAMI
 
-const gelir = +prompt("Lütfen aylık gelirinizi giriniz:");
-const gider = +prompt("Lütfen aylık giderinizi giriniz:");
+// const gelir = +prompt("Lütfen aylık gelirinizi giriniz:");
+// const gider = +prompt("Lütfen aylık giderinizi giriniz:");
 
-gelir >= (gider + 6471) ? console.log("Kredi verilebilir.") : console.log("Kredi verilemez.");
+// gelir >= (gider + 6471) ? console.log("Kredi verilebilir.") : console.log("Kredi verilemez.");
