@@ -40,7 +40,7 @@
 
 
 //! ÖDEV 3: 4 İŞLEM HESAP MAKİNASI (FONKSİYON İLE)
-let sonuc;
+let sonuc=0;
 
 function topla (n1,n2) {
     let sonuc= n1 + n2;
