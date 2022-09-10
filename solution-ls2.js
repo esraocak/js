@@ -39,52 +39,52 @@
 // } while ( cevap==="e")
 
 
-//! ÖDEV 3: 4 İŞLEM HESAP MAKİNASI (FONKSİYON İLE)
-let sonuc=0;
+// //! ÖDEV 3: 4 İŞLEM HESAP MAKİNASI (FONKSİYON İLE)
+// let sonuc=0;
 
-function topla (n1,n2) {
-    let sonuc= n1 + n2;
-    return sonuc;
-}
+// function topla (n1,n2) {
+//     sonuc= n1 + n2;
+//     return sonuc;
+// }
 
-function cikar (n1,n2) {
-    let sonuc= n1 - n2;
-    return sonuc;
-}
+// function cikar (n1,n2) {
+//     sonuc= n1 - n2;
+//     return sonuc;
+// }
 
-function carp (n1,n2) {
-    let sonuc= n1 * n2;
-    return sonuc;
-}
+// function carp (n1,n2) {
+//     sonuc= n1 * n2;
+//     return sonuc;
+// }
 
-function böl (n1,n2) {
-    let sonuc= n1 / n2;
-    return sonuc;
-}
+// function böl (n1,n2) {
+//     sonuc= n1 / n2;
+//     return sonuc;
+// }
 
-const n1 = +prompt ("sayı1:");
-const n2 = +prompt ("sayı2");
-const op = prompt ("Yapmak istediğiniz işlemi (+,-,*,/) giriniz:");
+// const n1 = +prompt ("sayı1:");
+// const n2 = +prompt ("sayı2");
+// const op = prompt ("Yapmak istediğiniz işlemi (+,-,*,/) giriniz:");
 
-switch (op) {
-        case "+":
-            topla (n1,n2); 
-            break;
+// switch (op) {
+//         case "+":
+//             topla (n1,n2); 
+//             break;
         
-        case "-":
-            cikar (n1,n2); 
-            break;
+//         case "-":
+//             cikar (n1,n2); 
+//             break;
     
-        case "*":
-            carp (n1,n2); 
-            break;
+//         case "*":
+//             carp (n1,n2); 
+//             break;
     
-        case "/":
-            böl (n1,n2); 
-            break;
+//         case "/":
+//             böl (n1,n2); 
+//             break;
     
-        default:
-            console.log ("The wrong operator was entered.");
-            break;
-    }
-    console.log (`işlem sonucu:${sonuc}`);
+//         default:
+//             console.log ("The wrong operator was entered.");
+//             break;
+//     }
+//     console.log (`işlem sonucu:${sonuc}`);
