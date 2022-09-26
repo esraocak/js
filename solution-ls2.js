@@ -6,9 +6,9 @@
     
 //         toplam += sayi;
 //         sayac += 1;  
-
 //     } while (
-//         if (sayi="Q"){break;}
+//         if (sayi="Q")
+//         {break;}
 //     );
 
 // console.log (`Not ortalamanız: ${toplam/sayac}`);
